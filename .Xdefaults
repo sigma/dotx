@@ -1,0 +1,86 @@
+#ifdef COLOR
+*customization: -color
+#endif
+
+emacs-dev*Background: Black
+emacs-dev*Foreground: Wheat
+emacs-dev*pointerColor: Orchid
+emacs-dev*cursorColor: Yellow
+emacs-dev*FontBackend: xft
+emacs-dev*font: Monaco:pixelsize=13
+emacs-dev*bitmapIcon: on
+
+emacs*Background: Black
+emacs*Foreground: Wheat
+emacs*pointerColor: Orchid
+emacs*cursorColor: Yellow
+emacs*FontBackend: xft
+emacs*font: Monaco:pixelsize=13
+emacs*bitmapIcon: on
+
+urxvt*modifier: mod1
+urxvt*background: DarkSlateGray
+urxvt*foreground: Wheat
+urxvt*cursorColor: Yellow
+urxvt*font: xft:Monaco:pixelsize=13,xft:Monospace
+urxvt*reverseVideo: false
+urxvt*scrollBar: false
+urxvt*saveLines: 5000
+urxvt*reverseWrap: true
+urxvt*fullCursor: true
+urxvt*scrollTtyOutput: off
+urxvt*scrollKey: on
+urxvt*titleBar: true
+urxvt*color12: #84bdd2
+urxvt*transparent: true
+urxvt*shading: 20
+
+URxvt.urgentOnBell: True
+URxvt.perl-lib: /home/yann/.urxvt.d
+URxvt.perl-ext-common: selection,option-popup,selection-popup,searchable-scrollback,readline,keyboard-select,url-select,clipboard
+URxvt.keysym.M-grave: perl:keyboard-select:activate
+URxvt.keysym.M-s: perl:keyboard-select:search
+URxvt.keysym.M-S-u: perl:url-select:select_next
+URxvt.urlLauncher: firefox
+URxvt.keysym.M-S-c:   perl:clipboard:copy
+URxvt.keysym.M-S-v:   perl:clipboard:paste
+URxvt.keysym.M-C-v: perl:clipboard:paste_escaped
+
+mocp*background: DarkSlateGray
+mocp*foreground: Wheat
+mocp*cursorColor: Yellow
+mocp*font: xft:Monaco:pixelsize=13,xft:Monospace
+mocp*reverseVideo: false
+mocp*scrollBar: false
+mocp*reverseWrap: true
+mocp*fullCursor: true
+mocp*scrollTtyOutput: off
+mocp*scrollKey: on
+mocp*titleBar: true
+mocp*color12: #84bdd2
+mocp*transparent: true
+mocp*shading: 20
+mocp.geometry: 100x30+120+120
+
+htop*background: DarkSlateGray
+htop*foreground: Wheat
+htop*cursorColor: Yellow
+htop*font: xft:Monaco:pixelsize=13,xft:Monospace
+htop*reverseVideo: false
+htop*scrollBar: false
+htop*reverseWrap: true
+htop*fullCursor: true
+htop*scrollTtyOutput: off
+htop*scrollKey: on
+htop*titleBar: true
+htop*color12: #84bdd2
+htop*transparent: true
+htop*shading: 20
+htop.geometry: 100x30+120+120
+
+Xft.dpi:                96
+Xft.hinting:            true
+Xft.hintstyle:          hintslight
+Xft.antialias:          true
+Xft.rgba:               rgb
+Xft.lcdfilter:          lcddefault
